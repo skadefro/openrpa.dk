@@ -24,13 +24,34 @@ header{
         100% calc(100% - 6vw),
         0% 100%
       );
+    -webkit-clip-path: polygon(
+        0 0,
+        100% 0%,
+        100% calc(100% - 6vw),
+        0% 100%
+      );
     margin-bottom: -6vw;
 }
+
+/*
+transform: skewY(-4deg);
+  transform-origin: top left;
+
+}
+header * {
+    transform: skewY(3deg);
+}*/
 main {
     flex-grow: 2;
     display: flex;
     flex-direction: column;
       clip-path: polygon(
+        6w 0,
+        100% 0,
+        100% 100%,
+        0% 100%
+      );
+    -webkit-clip-path: polygon(
         6w 0,
         100% 0,
         100% 100%,
@@ -47,6 +68,12 @@ main {
         100% 100%,
         0% calc(100% - 6vw)
       );
+    -webkit-clip-path: polygon(
+        0 6vw,
+        100% 0%,
+        100% 100%,
+        0% calc(100% - 6vw)
+      );
     padding: 3vw 10vw;
     display: flex;
     flex-direction: row;
@@ -55,8 +82,14 @@ main {
 .product2 {
     background: linear-gradient(to left, rgba(3,119,148,0.9), rgba( 55,167,74,0.9));
     flex-grow: 1;
-    margin-top: -6vw;
+    margin-top: -6.01vw;
      clip-path: polygon(
+        0 0,
+        100% 6vw,
+        100% calc(100% - 6vw),
+        0% 100%
+      );
+    -webkit-clip-path: polygon(
         0 0,
         100% 6vw,
         100% calc(100% - 6vw),
@@ -70,10 +103,16 @@ main {
 footer {
     background-color: #1b1b33;
     color: rgba(255,255,255,0.5);
-    margin-top: -6vw;
+    margin-top: -6.01vw;
     padding: 0.7vw 20px 10px 20px;
     font-size: 11px;
     clip-path: polygon(
+        0 6vw,
+        100% 0%,
+        100% 100%,
+        0% 100%
+      );
+    -webkit-clip-path: polygon(
         0 6vw,
         100% 0%,
         100% 100%,
@@ -154,4 +193,31 @@ p {
 .company-info{
 text-align: right;
     padding-bottom: 10px;
+}
+
+/**************** tablet sizes *****************/
+
+@media only screen and (max-width: 1024px) {
+    
+    .product1,
+    .product2 {
+        justify-content: center;
+    }
+}
+
+/**************** version for IE and Edge *****************/
+_:-ms-lang(x), header {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+} 
+_:-ms-lang(x), .product1 { 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+_:-ms-lang(x), .product2 { 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+_:-ms-lang(x), footer { 
+    margin-top: 0;
 }
