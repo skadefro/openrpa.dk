@@ -51,3 +51,8 @@ Kombinerer du [OpenRPA](https://github.com/open-rpa/openrpa) og [OpenFlow](https
 ·         RPA Data opsamling der f.eks kan bruges til Proces Mining 
 
 [Prøv det](download) allerede i dag, læs [dokumentationen](https://github.com/open-rpa/openrpa/wiki) eller hent og bidrag til  [source koden](https://github.com/open-rpa/openrpa) og hjælp Danmark med at blive en markeds ledende leverandør af RPA. 
+
+[Book et møde](https://calendly.com/openrpa/60min) for en snak om support muligheder
+
+Forbind med mig på [linkedin](https://www.linkedin.com/in/skadefro/)
+
