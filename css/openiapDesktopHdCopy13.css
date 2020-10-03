@@ -16,7 +16,7 @@
   width               : 100%;
   min-width           : 1440px;
   height              : 100vh;
-  min-height          : 6563px;
+  min-height          : 7140px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -453,7 +453,7 @@ div {
 }
 .openiapdesktophdcopy13 .rectanglecopy5 {
   background-color    : rgba(75, 57, 67, 1.0);
-  top                 : 6259px;
+  top                 : 6821px;
   height              : 304px;
   width               : 1440px;
   position            : absolute;
@@ -464,7 +464,7 @@ div {
 }
 .openiapdesktophdcopy13 .rectanglecopy6 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 6458px;
+  top                 : 7062px;
   height              : 105px;
   width               : 1440px;
   position            : absolute;
@@ -491,7 +491,7 @@ div {
 }
 .openiapdesktophdcopy13 .a2512020openiap {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6499px;
+  top                 : 7100px;
   height              : auto;
   width               : 128px;
   position            : absolute;
@@ -507,7 +507,7 @@ div {
 }
 .openiapdesktophdcopy13 .stroke5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6496px;
+  top                 : 7100px;
   height              : 19px;
   width               : 20px;
   position            : absolute;
@@ -518,7 +518,7 @@ div {
 }
 .openiapdesktophdcopy13 .group3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6497px;
+  top                 : 7100px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -554,14 +554,30 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.openiapdesktophdcopy13 .ressources {
+.openiapdesktophdcopy13 .partners {
   background-color    : rgba(255,255,255,0.0);
   top                 : 58px;
   height              : auto;
   width               : 139px;
   position            : absolute;
   margin              : 0;
-  left                : 668px;
+  left                : 674px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SpaceGrotesk-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(75, 57, 67, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.openiapdesktophdcopy13 .resources {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : auto;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 518px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SpaceGrotesk-Regular", Helvetica, Arial, serif;
@@ -1297,7 +1313,7 @@ div {
 }
 .openiapdesktophdcopy13 .reachouttolearnm {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 5872px;
+  top                 : 6422px;
   height              : auto;
   width               : 361px;
   position            : absolute;
@@ -1313,7 +1329,7 @@ div {
 }
 .openiapdesktophdcopy13 .writeusinfoopenr {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6023px;
+  top                 : 6553px;
   height              : auto;
   width               : 400px;
   position            : absolute;
@@ -1462,7 +1478,7 @@ div {
 }
 .openiapdesktophdcopy13 .openiapisautomatio {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6352px;
+  top                 : 6915px;
   height              : auto;
   width               : 641px;
   position            : absolute;
@@ -1478,7 +1494,7 @@ div {
 }
 .openiapdesktophdcopy13 .logoblack1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6345px;
+  top                 : 6910px;
   height              : 23px;
   width               : 149px;
   position            : absolute;
@@ -1723,8 +1739,8 @@ div {
 }
 .openiapdesktophdcopy13 .rectangle {
   background-color    : rgba(53, 227, 141, 1.0);
-  top                 : 5678px;
-  height              : 581px;
+  top                 : 6300px;
+  height              : 521px;
   width               : 400px;
   position            : absolute;
   margin              : 0;
@@ -1732,9 +1748,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.openiapdesktophdcopy13 .bpa {
+  top                 : 5680px;
+  height              : 521px;
+  width               : 400px;
+  position            : absolute;
+  opacity             : 1.0;
+}
 .openiapdesktophdcopy13 .group211 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 5596px;
+  top                 : 6215px;
   height              : 629px;
   width               : 478px;
   position            : absolute;
@@ -1757,7 +1780,7 @@ div {
 }
 .openiapdesktophdcopy13 .group211 .group212 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
+  top                 : +62px;
   height              : 618px;
   width               : 450px;
   position            : absolute;
@@ -1769,8 +1792,8 @@ div {
 .openiapdesktophdcopy13 .group211 .group212 .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 618px;
-  width               : 449px;
+  height              : 523px;
+  width               : 380px;
   position            : absolute;
   margin              : 0;
   left                : 1px;
@@ -1892,4 +1915,195 @@ div {
   word-wrap           : break-word;
   word-break          : break-all;
   word-break          : break-word;
+}
+
+
+
+
+/* PARTNER BPA TECHNOLOGIES */
+.premium {
+  position:absolute;
+  padding: 0px 59px;
+}
+
+.o-wrapper {
+  max-width: 1230px;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.c-slider {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 0px;
+  height: 450px;
+}
+
+.c-slide {
+  margin-right: 10px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border-left: 10px solid #A07F2E;
+  padding: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 1;
+  overflow: hidden;
+}
+
+.c-slide--partnertwo {
+  border-color: #A3CCB6;
+}
+
+.c-slide--partnerthree {
+  border-color: #EC7871;
+}
+
+.c-slide--partnerfour {
+  border-color: #3D484E;
+}
+
+.c-slide--partnerfive {
+  border-color: #003af8;
+}
+
+.c-slide--partnersix {
+  border-color: #cc18cc;
+}
+
+.c-slide--partnerseven {
+  border-color: #00ff37;
+}
+
+.c-slide__content {
+  width               : 100%;
+  align-items         : center;
+  font-family         : "SpaceGrotesk", Helvetica, Arial, serif;
+  font-size           : 14.9px;
+  text-align          : justify;
+  text-justify: inter-word;
+}
+
+
+.c-slide__content h3 {
+  width               : 100%;
+  align-items         : center;
+  font-family         : "SpaceGrotesk-Bold", Helvetica, Arial, serif;
+  font-size           : 17.7px;
+  text-align          : left;
+}
+
+.c-slide__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.c-slide__image-wrapper {
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 0;
+  padding-top: 66%;
+  position: relative;
+}
+
+.c-slide__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  min-height: 100%;
+  margin: auto;
+  padding: 0;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.c-header {
+  display             : flex;
+  justify-content     : space-between;
+  align-items         : center;
+  font-family         : "SpaceGrotesk-Bold", Helvetica, Arial, serif;
+  font-size           : 26.7px;
+  color               : rgba(53,227,141, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+
+.control-style {
+  top                 : 5949px;
+  position            : absolute;
+  cursor              : pointer;
+  font-size           : 30px;
+  color               : rgb(13, 172, 158);
+}
+
+
+.control-left {
+  position            : absolute;
+  left                : 50px;
+}
+
+.control-right {
+  cursor              : pointer;
+  position            : absolute;
+  left                : 1370px;
+}
+
+.c-drag {
+  opacity: 0.2;
+}
+
+.rectanglecopy99 .textpartners {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2993px;
+  height              : auto;
+  width               : 702px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SpaceGrotesk-Bold", Helvetica, Arial, serif;
+  font-size           : 45.0px;
+  color               : rgba(53, 227, 141, 1.0);
+  text-align          : left;
+  line-height         : 55.0px;
+}
+
+.rectanglecopy99 .imagepartners {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+
+.openiapdesktophdcopy13 .rectanglecopy99 {
+  background-color    : rgba(0, 155, 141, 1.0);
+  top                 : 5679px;
+  height              : 624px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.up-to-top {
+
+  cursor              : pointer;
+  font-size           : 30px;
+  color               : rgb(13, 172, 158);
 }
