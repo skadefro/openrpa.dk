@@ -112,6 +112,9 @@
                 <img alt="Image" anima-src="./img/openiap---desktop-hd-copy-13-fill-1@2x.png" class="fill13"
                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
             </div>
+            <div class="download">
+                <a href="https://github.com/open-rpa/openrpa/releases/latest/download/OpenRPA.msi">Download</a>
+            </div>
             <div class="contact">
                 <a href="#Contactinfo">Contact</a>
             </div>
@@ -155,30 +158,32 @@
                             <h2 class="up-to-top" onclick="window.scrollTo(0,0)">UP TO TOP</h2>
                         </header>
                         <div class="c-slider">
-                             <div class="c-slide c-slide--bpatechnologies">
+                            <div class="c-slide c-slide--bpatechnologies">
                                 <div class="c-slide__content">
-                                    <a href="https://www.bpatechnologies.com" title="See more" target="_blank" class="c-slide__link">
+                                    <a href="https://www.bpatechnologies.com" title="See more" target="_blank"
+                                        class="c-slide__link">
                                         <figure class="c-slide__image-wrapper">
-                                            <img class="c-slide__image"
-                                                src="img/partners/bpa.png"
-                                                alt="">
+                                            <img class="c-slide__image" src="img/partners/bpa.png" alt="">
                                         </figure>
                                     </a>
                                     <h3>BPA Technologies</h3>
                                     Multi-national company in three countries specialized in RPA.<br>
-                                    BPA was the first partner of OpenIAP and is responsible for creating documentation and for providing training for most of OpenIAP's tools.<br>
-                                    BPA automation portfolio covers a wide spectrum, specially now by using OpenFlow stack.
+                                    BPA was the first partner of OpenIAP and is responsible for creating documentation
+                                    and for providing training for most of OpenIAP's tools.<br>
+                                    BPA automation portfolio covers a wide spectrum, specially now by using OpenFlow
+                                    stack.
                                 </div>
 
                                 <br>
                                 <div class="c-slide__actions">
-                                    <a href="https://www.bpatechnologies.com" title="See more" target="_blank" class="c-slide__link">
-                                        <svg width="11" height="18" >
+                                    <a href="https://www.bpatechnologies.com" title="See more" target="_blank"
+                                        class="c-slide__link">
+                                        <svg width="11" height="18">
                                             <path
                                                 d="M10.328 9.036a.543.543 0 0 1 .172.395c0 .15-.057.281-.172.396L2.324  17.83a.543.543 0 0 1-.395.172.543.543 0 0 1-.396-.172l-.858-.859a.543.543 0 0 1-.172-.395c0-.149.057-.28.172-.395l6.75-6.75L.675 2.68a.543.543 0 0 1-.172-.395c0-.15.057-.28.172-.395l.858-.86A.543.543 0 0 1 1.93.86c.148 0 .28.057.395.172l8.004 8.004z"
                                                 fill="#000" fill-rule="evenodd" />
                                         </svg>
-                                    <!--
+                                        <!--
                                     <img src="img/parner_premium.png" class="premium">
                                     -->
                                     </a>
@@ -339,10 +344,12 @@
                 </div>
                 <div class="control-style">
                     <a class="control-left">
-                        <i class="fa fa-arrow-left" onclick="handleSwipeLeft()" aria-hidden="true" title="Next page"></i>
+                        <i class="fa fa-arrow-left" onclick="handleSwipeLeft()" aria-hidden="true"
+                            title="Next page"></i>
                     </a>
                     <a class="control-right">
-                        <i class="fa fa-arrow-right" onclick="handleSwipeRight()" aria-hidden="true" title="Next page"></i>
+                        <i class="fa fa-arrow-right" onclick="handleSwipeRight()" aria-hidden="true"
+                            title="Next page"></i>
                     </a>
                 </div>
             </section>
@@ -600,11 +607,13 @@
     </div>
 
     <!-- BPA TECHNOLOGIES -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"></script>
 
     <script>
         let lengthSlide = document.getElementsByClassName("c-slide").length;
-        document.getElementsByClassName("c-slider")[0].style.setProperty("width", lengthSlide*310 + "px");
+        document.getElementsByClassName("c-slider")[0].style.setProperty("width", lengthSlide * 310 + "px");
 
         if (lengthSlide < 5) {
             document.getElementsByClassName("fa fa-arrow-right")[0].style.display = 'none';
